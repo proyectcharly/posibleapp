@@ -209,6 +209,16 @@ footer {
   -moz-border-radius: 6px 0 0 6px;
   border-radius: 6px 0 0 6px;
 }
+
+a.logo {
+width: 297px;
+display: block;
+margin-top: 8px;
+}
+.header-23-startup-antiflicker {
+background-color: rgba(51, 51, 51, 0.29) !important;
+}
+
 .bg-white {
   background-color: #ffffff;
 }
@@ -580,6 +590,7 @@ header .brand {
   color: #2c3e50;
 }
 header .brand img:first-child {
+  width: 100px;
   float: left;
   margin: -10px 15px 0 0;
 }
@@ -904,15 +915,38 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
     padding-bottom: 170px;
   }
 }
+
+.header-23-sub .control-btn {
+    width: 53px;
+    height: 53px;
+    line-height: 53px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 19px;
+    font-weight: normal;
+    color: #7F8C8D;
+    background: #121518;
+    color: #B7C736 !important;
+     opacity: 30;
+      filter: alpha(opacity=3000);
+       opacity: 0.3;
+      filter: alpha(opacity=30);
+    position: absolute;
+    left: 50%;
+    bottom: -100px;
+    margin-left: -26.5px;
+}
 .header-23-sub .hero-unit {
   margin: 0;
   padding: 0;
   background: transparent;
-  font-size: 30px;
+  font-size: 46px;
   letter-spacing: -1px;
 }
 .header-23-sub .hero-unit strong {
-  font-size: 36px;
+  font-size: 46px;
   font-weight: 800;
   letter-spacing: -2px;
 }

@@ -615,6 +615,13 @@ startupKit.uiKitHeader.header23 = function() {
             });
         });
     });
+    $('.header-23-sub .control-btn').on('click', function() {
+        $.scrollTo($(this).closest('section').next(), {
+            axis : 'y',
+            duration : 500
+        });
+        return false;
+    });
 };
 
 var isMobile = {
